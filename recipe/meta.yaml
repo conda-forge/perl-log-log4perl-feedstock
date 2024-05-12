@@ -1,6 +1,6 @@
 {% set name = "perl-log-log4perl" %}
-{% set version = "1.56" %}
-{% set sha256 = "47e08d63c9a940743308c8ba39fa51e4c15459c7d70acfc3b131b981f843a941" %}
+{% set version = "1.57" %}
+{% set sha256 = "0f8fcb7638a8f3db4c797df94fdbc56013749142f2f94cbc95b43c9fca096a13" %}
 
 package:
   name: {{ name }}
@@ -45,7 +45,7 @@ about:
   home: https://metacpan.org/dist/Log-Log4perl
   license: GPL-1.0-or-later OR Artistic-1.0-Perl
   license_family: OTHER
-  summary: 'Log4j implementation for Perl'
+  summary: Log4j implementation for Perl
   license_file:
     - {{ environ["PREFIX"] }}/man/man1/perlartistic.1
     - {{ environ["PREFIX"] }}/man/man1/perlgpl.1
